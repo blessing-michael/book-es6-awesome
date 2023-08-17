@@ -70,9 +70,7 @@ contactUs.addEventListener('click', () => {
 });
 
 const updateTime = () => {
-  const formattedTime =DateTime.now().toFormat('yyyy LLL dd HH: mm :ss');
-
+  const formattedTime = DateTime.now().toFormat('yyyy LLL dd HH: mm :ss');
   date.textContent = formattedTime;
- 
 };
 updateTime();
